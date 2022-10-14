@@ -36,7 +36,7 @@ const loop = setInterval(() => {
         clouds2.style.left= `${clouds2Position}px`
 
 
-        mario.src='/images/game-over.png'
+        mario.src='./images/game-over.png'
         mario.style.width='75px'
         mario.style.marginLeft='50px'
 
