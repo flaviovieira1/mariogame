@@ -1,4 +1,4 @@
-# mariogame
+# mariorun
 
 Projeto pequeno para praticar HTML, CSS e JS
 
