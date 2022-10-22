@@ -3,8 +3,7 @@ const pipe = document.querySelector(".pipe");
 const clouds = document.querySelector(".clouds");
 const clouds2 = document.querySelector(".clouds2");
 const msg = document.querySelector("#msg");
-const restart = document.querySelector('#restart')
-
+const restart = document.querySelector("#restart");
 
 const jump = () => {
   mario.classList.add("jump");
@@ -42,7 +41,7 @@ const loop = setInterval(() => {
     mario.style.marginLeft = "50px";
 
     msg.innerHTML = `${pontos} pontos<br> <button id="reset" onclick="window.location.reload()"><img src="./images/reset.png" id="button-image"></button>`;
-    score.innerText = ''
+    score.innerText = "";
 
     clearInterval(loop);
   }
@@ -51,8 +50,7 @@ const loop = setInterval(() => {
 var pontos = 0;
 
 function pontuacao(n) {
-  return n > 9 ? n : "0" 
+  return n > 9 ? n : "0";
 }
-  
 
 document.addEventListener("keydown", jump);
